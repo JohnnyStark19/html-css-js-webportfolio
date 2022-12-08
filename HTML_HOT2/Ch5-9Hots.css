@@ -1,0 +1,394 @@
+/* DEFAULT PHONE */
+
+header {
+  display: flex;
+}
+
+#wholeHeader {
+  background-color: lightgray;
+}
+
+#container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#container header h1 {
+  font-size: 1em;
+}
+
+#container nav ul {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+}
+
+a:link,
+a:visited,
+a:focus,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+#container nav ul li {
+  display: flex;
+  list-style-type: none;
+  padding: 10px;
+}
+
+#container nav ul li a {
+  font-size: 1em;
+  color: black;
+}
+
+#headLeftBotandImage {
+  display: flex;
+  justify-content: space-between;
+}
+
+#headLeftBottom h1 {
+  font-size: 1em;
+  margin-bottom: 0;
+}
+
+#headLeftBottom p {
+  font-size: 1em;
+  margin-top: 0;
+}
+
+.button {
+  background-color: lightblue;
+  border: none;
+  color: #000;
+  padding: 15px 32px;
+  text-decoration: none;
+}
+
+#headRightImage {
+  display: flex;
+  justify-content: center;
+}
+
+#headRightImage img {
+  width: 600px;
+  height: 100px;
+}
+
+#mainTopContent {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  flex-direction: column;
+}
+
+#mainTopContent div {
+  padding: 10px 10px 10px 10px;
+}
+
+#mainTopContent div p {
+  flex-wrap: wrap;
+}
+
+#mainBotHeader {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 100px;
+}
+
+#mainTopContent div img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#mainBottomContent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+#mainBottomContent div {
+  padding: 10px 10px 10px 10px;
+}
+
+#mainBottomContent div img {
+  width: 150px;
+  height: 250px;
+}
+
+.footer-copyright-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* TABLET VIEW 600PX */
+@media only screen and (min-width: 600px) {
+  html {
+    background-color: white;
+  }
+
+  header {
+    display: flex;
+  }
+
+  #wholeHeader {
+    background-color: lightgray;
+  }
+
+  #container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #container header h1 {
+    font-size: 1em;
+  }
+
+  #container nav ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+  }
+
+  a:link,
+  a:visited,
+  a:focus,
+  a:hover,
+  a:active {
+    text-decoration: none;
+  }
+
+  #container nav ul li {
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+  }
+
+  #container nav ul li a {
+    font-size: 1em;
+    color: black;
+  }
+
+  #headLeftBotandImage {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #headLeftBottom h1 {
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+
+  #headLeftBottom p {
+    font-size: 1em;
+    margin-top: 0;
+  }
+
+  .button {
+    background-color: lightblue;
+    border: none;
+    color: #000;
+    padding: 15px 32px;
+    text-decoration: none;
+  }
+
+  #headRightImage {
+    display: flex;
+    justify-content: center;
+  }
+
+  #headRightImage img {
+    width: 600px;
+    height: 100px;
+  }
+
+  #mainTopContent {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: column;
+  }
+
+  #mainTopContent div {
+    padding: 10px 10px 10px 10px;
+  }
+
+  #mainTopContent div p {
+    flex-wrap: wrap;
+  }
+
+  #mainBotHeader {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  #mainTopContent div img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  #mainBottomContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  #mainBottomContent div {
+    padding: 10px 10px 10px 10px;
+  }
+
+  #mainBottomContent div img {
+    width: 150px;
+    height: 250px;
+  }
+
+  .footer-copyright-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
+
+/* DESKTOP VIEW  */
+@media only screen and (min-width: 1200px) {
+  html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+  }
+
+  header {
+    display: flex;
+  }
+
+  #wholeHeader {
+    background-color: lightgray;
+  }
+
+  #container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #container header h1 {
+    font-size: 2em;
+  }
+
+  #container nav ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+  }
+
+  a:link,
+  a:visited,
+  a:focus,
+  a:hover,
+  a:active {
+    text-decoration: none;
+  }
+
+  #container nav ul li {
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+  }
+
+  #container nav ul li a {
+    font-size: 2em;
+    color: black;
+  }
+
+  #headLeftBotandImage {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #headLeftBottom h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+  }
+
+  #headLeftBottom p {
+    font-size: 1em;
+    margin-top: 0;
+  }
+
+  .button {
+    background-color: lightblue;
+    border: none;
+    color: #000;
+    padding: 15px 32px;
+    text-decoration: none;
+  }
+
+  #headRightImage {
+    display: flex;
+    justify-content: center;
+  }
+
+  #headRightImage img {
+    width: 1100px;
+    height: 400px;
+  }
+
+  #mainTopContent {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: row;
+  }
+
+  #mainTopContent div {
+    padding: 10px 10px 10px 10px;
+  }
+
+  #mainTopContent div p {
+    flex-wrap: wrap;
+  }
+
+  #mainBotHeader {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  #mainTopContent div img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  #mainBottomContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  #mainBottomContent div {
+    padding: 10px 10px 10px 10px;
+  }
+
+  #mainBottomContent div img {
+    width: 150px;
+    height: 250px;
+  }
+
+  .footer-copyright-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
